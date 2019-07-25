@@ -54,4 +54,11 @@ print("INDEX <br>");
     ['name'=>$userName, 'city'=>$userCity, 'age'=>$userAge] = $user;
     print("Name: $userName, Age: $userAge, City: $userCity <br>");
     
+    /**
+     * Negative offsets everywhere
+     * every function that takes an offset can be negative
+     */
+    $yourname = "Alex";
+
+    echo "Your Name last char: " . $yourname[-1] . "<br>";
 ?>
