@@ -102,4 +102,13 @@ print("INDEX <br>");
 
     echo "Beer VAT " . $beer->getVAT() . "<br>";
     echo "Parent VAT " . $beer->getParentVAT() . "<br>";
+
+    try
+    {
+        // function throw exeption
+    }
+    catch(Exception1 | Exception2 | Exception3 $e)
+    {
+        echo $e;
+    }
 ?>
