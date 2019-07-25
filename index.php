@@ -38,5 +38,20 @@ print("INDEX <br>");
         }
     }
 
+    /**
+     * Array deconstructing
+     */
+
+    $response = ['alex', 27, 'red'];
+
+    //list($name, $age, $colour) = $response;
+    // PHP 7.1
+    [$name, $age, $colour] = $response;
+    print("Name: $name, Age: $age, Colour: $colour <br>");
+
+    // With associative array
+    $user = ['name'=>'mark', 'age'=>37, 'city'=>'olabama'];
+    ['name'=>$userName, 'city'=>$userCity, 'age'=>$userAge] = $user;
+    print("Name: $userName, Age: $userAge, City: $userCity <br>");
     
 ?>
