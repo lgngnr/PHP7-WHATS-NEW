@@ -61,4 +61,13 @@ print("INDEX <br>");
     $yourname = "Alex";
 
     echo "Your Name last char: " . $yourname[-1] . "<br>";
+
+    /**
+     * Void Types
+     */
+
+    function register() : void
+    {
+        //register
+    }
 ?>
